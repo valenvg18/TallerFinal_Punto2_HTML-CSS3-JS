@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,18 @@
     <title>Lista Ordenada de Frutas</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body id="body">
-    
-    <header>
-        <div>
-            <h1> Frutas Exoticas de Colombia </h1>
-        </div>
-        <select id="seleccion" name="coloresLetras" onchange="cambiarColor(this)">
-            <option value="">Seleccionar Color</option>
-            <option value="beige">Beige</option>
-            <option value="green">Verde</option>
-        </select>
-    </header
 
     <div>
+        <h1> Frutas Exoticas de Colombia </h1>
+    </div>
+    <select id="seleccion" name="coloresLetras" onchange="cambiarColor(this)">
+        <option value="">Seleccionar Color</option>
+        <option value="beige">Beige</option>
+        <option value="green">Verde</option>
+    </select>
+    <div id="list-color-container">
         <article>
             <section>
                 <ol id="lista">
@@ -38,7 +37,7 @@
             </section>
         </article>
     </div>
-    
+
     <script src="archivo.js"></script>
 </body>
 
